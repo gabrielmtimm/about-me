@@ -1,0 +1,116 @@
+main{
+    padding: 5%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* MAIN CONTENT =============== */
+main .main-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-info {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px 45px;
+    margin-left: 200px;
+    background-color: #ff7b71;
+    border-radius: 20px;
+    width: 500px;
+    box-shadow: ;
+}
+
+section form{ 
+    display: flex;
+    flex-direction: column;
+}
+
+form label{
+    color: white;
+    font-size: 17px;
+    margin-bottom: 4px;
+}
+
+form input{
+    padding: 6px;
+    outline: none;
+    border: 0;
+    margin-bottom: 20px;
+    font-size: 15px;
+    border-radius: 25px;
+    transition: all 0.5s;
+}
+
+form input:focus{
+    border-radius: 10px;
+}
+
+form textarea{
+    padding: 10px;
+    outline: none;
+    border: 0;
+    font-size: 15px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    transition: all 0.5s;
+}
+
+form textarea:focus{
+    border-radius: 10px;
+}
+
+form button{
+    padding: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    border-radius: 30px;
+    transition: all 1s;
+    margin-bottom: 20px;
+}
+
+form button:hover{
+    background: rgb(196, 142, 142);
+}
+
+main .main-content h2{
+    margin-bottom: 2%;
+    font-size: 2.2em;
+}
+
+main .main-content .text{
+    margin-bottom: 10%;
+}
+
+main .main-content .text p{
+    width: 75%;
+    font-size: 1.2em;
+    font-weight: 300;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+.img-container img {
+    width: 700px;
+    object-fit: cover;
+}

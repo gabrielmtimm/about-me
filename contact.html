@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    
+    <!--- FOTINHO JUNTO COM TITULO --->
+    <link rel="shortcut icon" href="IMG/favicon.ico" type="image/x-icon">
+    
+    <!---CSS-->
+    <link rel="stylesheet" href="CSS/CSS-CONTACT/reset.css">
+    <link rel="stylesheet" href="CSS/CSS-CONTACT/header.css">
+    <link rel="stylesheet" href="CSS/CSS-CONTACT/main.css">
+    <link rel="stylesheet" href="CSS/CSS-CONTACT/footer.css">
+    <!--FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap" rel="stylesheet">
+    <!--CSS-->
+    <script src="http://kit.fontawesome.com/d987aa355c.js" crossorigin="anonymous" defer></script>
+</head>
+<body>
+    <header>
+        <h1 onclick="window.location.reload()">Contact</h1>
+
+      <nav>
+
+        <a class="lattes-button" href="http://lattes.cnpq.br/4998202524925287" target="_blank">Lattes</a>
+ 
+        <a class="back-button" href="index.html">Back</a>
+
+        </a>
+
+      </nav>
+
+    </header>
+
+    <main>
+        <section class="main-content">
+            <h2>Send your message</h2>
+            <form class="contact-info" action="https://api.staticforms.xyz/submit" method="post">
+                <label>Name:</label>
+                <input type="text" name="Name" placeholder="Type your name" autocomplete="off" required>
+
+                <label>E-mail:</label>
+                <input type="email" name="email" placeholder="Type your e-mail" autocomplete="off" required>
+
+                <label>Message:</label>
+                <textarea name="message" cols="30" rows="10" placeholder="Type your message" required></textarea>
+
+                <button type="submit">Send message</button>
+
+                <input type="hidden" name="accessKey" value="53683479-0eea-473d-b9f9-97c079948c5f">
+                <input type="hidden" name="redirectTo" value="http://gabrieltimm.xyz/thank-you-page.html">
+            </form>
+        </section>
+
+        <div class="container">
+            <div class="img-container" id="fly-personage-01">
+                <img src="IMG/fly-personage.png" alt="Fly Personage">
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <span>
+            &copy; Gabriel Timm, 2024 - All rights reserved.
+        </span>
+    </footer>
+
+    <script src="move-personage.js"></script>
+
+</body>
+</html>

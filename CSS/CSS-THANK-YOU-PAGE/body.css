@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+body h1{
+    font-size: 45px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+body p{
+    color: white;
+    margin-bottom: 50px;
+}
+
+body a{
+    padding: 15px 55px;
+    background: transparent;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    border: 2px solid white;
+    border-radius: 30px;
+    transition: all 1s;
+}
+
+body a:hover{
+    background: rgb(196, 142, 142);
+}
